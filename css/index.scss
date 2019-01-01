@@ -186,6 +186,7 @@ body{
 
 .thriceSection{
     background-color: #f4f4f4;
+    padding-bottom: 50px;
 }
 .thriceSection__price{
     background: #ffffff;
@@ -240,7 +241,29 @@ body{
 .thriceSection__price--p{
     font-size: 12px;
 }
+#sale-text{
+    font-size: 11px;
+    color: #ffffff;
+    text-align: center;
+}
+#sale-percent{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bolder;
+}
 .thriceSection__price--sale-price{
     color: #ff5912;
     font-size: 30px;
+    margin-left: 10%;
+}
+.thriceSection__size{
+    font-size: 16px;
+    padding: 30px 0;
+    text-align: center;
+    .one-span{
+        color: #34404b;
+    }
+    .two-span{
+        color: #ff5912;
+    }
 }
