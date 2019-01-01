@@ -147,13 +147,13 @@ body{
 .twiceSection__content{
     text-align: center;
     .row{
-        margin-bottom: 80px;   
+        margin-bottom: 80px; 
     }
     .col-lg-3{
         cursor: pointer;
         width: 23%;
         padding: 30px 10px;
-        margin-right: 1.5%;
+        margin-right: 2.34%;
         background: #ffffff;
         img{
             padding: 0 30px;
@@ -170,11 +170,11 @@ body{
     color: #ff5912;
 }
 .twiceSection-item-4{
-    
+    margin-right: 0 !important;
 }
 .twiceSection__dots{
     cursor: pointer;
-    width: 97%;
+    width: 100%;
     background: #ffffff;
     padding: 20px 0;
     i{
@@ -191,7 +191,7 @@ body{
     background: #ffffff;
     margin-right: 2%;
     width: 55%;
-    padding: 10px 55px;
+    padding: 30px 55px;
 }
 .thriceSection__size{
     background: #ffffff;
@@ -199,4 +199,48 @@ body{
 }
 .thriceSection__price--sale{
     padding: 10px 55px;
+    position: relative;
+}
+.thriceSection__price--text{
+    z-index: 3;
+    position: absolute;
+    bottom: -3px;
+    left: 47%;
+}
+.rotateDiv__one{
+    bottom: -11px;
+    left: 34%;
+    position: absolute;
+    width: 55px;
+    height: 60px;
+    background: #ff5912;
+    z-index: 2;
+    -webkit-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+.rotateDiv__two{
+    position: absolute;
+    bottom: -13px;
+    left: 35%;
+    width: 52px;
+    height: 64px;
+    background: #ff9060;
+    z-index: 1;
+    -webkit-transform: rotate(-70deg);
+    transform: rotate(-70deg);
+}
+.thriceSection__price--header{
+    padding-left: 20px;
+    color:#34404b;
+}
+.thriceSection__price--h{
+    font-size: 22px;
+    font-weight: bolder;
+}
+.thriceSection__price--p{
+    font-size: 12px;
+}
+.thriceSection__price--sale-price{
+    color: #ff5912;
+    font-size: 30px;
 }
