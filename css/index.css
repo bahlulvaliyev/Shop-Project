@@ -307,11 +307,38 @@ body {
   text-align: center;
 }
 
-.thriceSection__size .one-span {
+.one-span {
   color: #34404b;
 }
 
-.thriceSection__size .two-span {
+.two-span {
   color: #ff5912;
+}
+
+.fourSection {
+  background-color: #f4f4f4;
+}
+
+.fourSection .row {
+  padding-top: 60px;
+}
+
+.fourSection--header {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.fourSection--text {
+  text-align: center;
+  color: #495662;
+  font-size: 16px;
+}
+
+/*Four Section*/
+.fourSection__col-3 {
+  width: 32%;
+  background-color: #ffffff;
+  margin-right: 1.5%;
 }
 /*# sourceMappingURL=index.css.map */

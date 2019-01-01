@@ -260,10 +260,34 @@ body{
     font-size: 16px;
     padding: 30px 0;
     text-align: center;
-    .one-span{
-        color: #34404b;
+    
+}
+.one-span{
+    color: #34404b;
+}
+.two-span{
+    color: #ff5912;
+}
+.fourSection{
+    background-color: #f4f4f4;
+    .row{
+        padding-top: 60px;
     }
-    .two-span{
-        color: #ff5912;
-    }
+}
+.fourSection--header{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+}
+.fourSection--text{
+    text-align: center;
+    color: #495662;
+    font-size: 16px;
+}
+
+/*Four Section*/
+.fourSection__col-3{
+    width: 32%;
+    background-color: #ffffff;
+    margin-right: 1.5%;
 }
