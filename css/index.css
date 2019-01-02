@@ -336,9 +336,120 @@ body {
 }
 
 /*Four Section*/
+.fourSection {
+  padding-bottom: 50px;
+}
+
 .fourSection__col-3 {
   width: 32%;
   background-color: #ffffff;
   margin-right: 1.5%;
+  padding: 30px;
+}
+
+.fourSection__col-3 img {
+  margin-right: 30px;
+  float: left;
+}
+
+.star-color-full {
+  color: #f55d44;
+  font-size: 10px;
+}
+
+.star-color-empty {
+  color: #e8ecf3;
+  font-size: 10px;
+}
+
+.fourSection__col-3--text {
+  padding: 10px 0;
+  font-size: 18px;
+  color: #34404b;
+}
+
+.fourSection__col-3-price {
+  margin-left: 30%;
+}
+
+.col-3-text-color {
+  color: #ff5912;
+  font-size: 16px;
+}
+
+/*Six Section*/
+.sixSection {
+  background: #f4f6f8;
+  padding: 100px 0;
+}
+
+.sixSection .row {
+  padding: 50px 0;
+  background-color: #ffffff;
+}
+
+.sixSection--news {
+  color: #ff5912;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.sixSection--text {
+  font-size: 14px;
+  color: #343434;
+  font-family: "Harmonia Sans Pro Cyr Italic";
+  font-style: italic;
+}
+
+.sixSection--mail {
+  font-size: 14px;
+  color: #7c8791;
+  font-style: italic;
+}
+
+.sixSection--mail i {
+  color: #ff5912;
+}
+
+.sixSection--joinUs {
+  padding: 15px 30px;
+  background: #ff5912;
+  color: #ffffff;
+}
+
+.sixSection--joinUs:hover {
+  color: #ffffff;
+}
+
+/*Home footer*/
+.homeFooter {
+  padding: 60px 0;
+  color: #28313b;
+  font-size: 14px;
+}
+
+.homeFooter p {
+  padding: 10px 0;
+}
+
+.homeFooter li {
+  padding-bottom: 10px;
+}
+
+.homeFooter li:hover {
+  color: #f55d44;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.footerPayment {
+  font-size: 16px;
+  color: #ff5912;
+  padding: 10px 0;
+}
+
+.footerPayment_cart i {
+  font-size: 16px;
+  padding-right: 5px;
 }
 /*# sourceMappingURL=index.css.map */
