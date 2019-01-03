@@ -88,6 +88,42 @@ body{
 .sliderSection{
    
 }
+.sectionDots_one{
+    &::before{
+        content: " ";
+        width: 10px;
+        height: 20px;
+        background: #ffffff;
+        position: absolute;
+        left: 0;
+        top: 20px;
+    }
+
+}
+.sectionDots_two{
+    &::before{
+        content: " ";
+        width: 10px;
+        height: 40px;
+        background: #ff5912;
+        position: absolute;
+        left: 0;
+        top: 50px;
+    }
+
+}
+.sectionDots_three{
+    &::before{
+        content: " ";
+        width: 10px;
+        height: 20px;
+        background: #ffffff;
+        position: absolute;
+        left: 0;
+        top: 100px;
+    }
+
+}
 .sliderSection_background{
     background-image: url("../image/SliderBackgr.png");
     background-repeat: no-repeat;
@@ -159,6 +195,87 @@ body{
             padding: 0 30px;
         }
     }
+}
+.active{
+    background-color: #e12e3f !important;
+    z-index: 1000 !important;
+}
+.twSection_col-img{
+    width: 90%;
+    height: 190px;
+}
+
+.twSection_col{
+    height: 340px;
+    &:hover{
+        
+        .twiceSection__content--header{
+            color: #ff5912;
+            padding: 5px 0;
+        }
+        .twSection_col-img{
+            width: 60%;
+            height: 40%;
+            transition: 0.5s;
+            margin-bottom: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .hidden-sizes{
+            display: block;
+            padding-bottom: 10px;
+        }
+        .twiceSection__content--price{
+            display: none;
+        }
+        .hiddenSizes_dots{
+            display: block;
+        }
+        .hidden-col-3-sizes{
+            display: block;
+        }
+    }
+}
+.hidden-sizes{
+    display: none;
+}
+.hidden-col-3-sizes{
+    &::before{
+        content: " ";
+        height: 1px;
+        width: 160px;
+        background-color: #7c8791;
+        position: absolute;
+        left: 20%;
+    }
+    display: none;
+    i{
+        margin:20px 15px;
+        cursor: pointer;
+        &:hover{
+            color: #ff5912;
+        }
+    }
+}
+.hiddenSizes_dots{
+    display: none;
+    margin-bottom: 10px;
+}
+.sizesDot-one{
+    color: #e12e3f;
+    cursor: pointer;
+}
+.sizesDot-two{
+    color: #34404b;
+    cursor: pointer;
+}
+.sizesDot-three{
+    color: #3ab3ff;
+    cursor: pointer;
+}
+.sizesDot-four{
+    color: #2fd967;
+    cursor: pointer;
 }
 .twiceSection__content--header{
     font-size: 18px;
