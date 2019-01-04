@@ -1,0 +1,225 @@
+/*Twice Section*/
+.twiceSection{
+    background: #f4f6f8;
+    .row{
+       width: 85%;
+       float: right;
+    }
+}
+.twiceSection_wrap{
+    padding: 80px 0; 
+    text-align: center;
+}
+.twiceSection--header{
+    font-size: 36px;
+    .span--one{
+        color: #ff5912;
+    }
+}
+.twiceSection--text{
+    font-size: 16px;
+    color:#495662;
+    
+}
+
+.twiceSection__content{
+    text-align: center;
+    .row{
+        margin-bottom: 80px; 
+        width: 80%;
+    }
+    .col-lg-4{
+        cursor: pointer;
+        width: 30%;
+        padding: 30px 10px;
+        margin-right: 5%;
+        margin-bottom: 30px;
+        background: #ffffff;
+        img{
+            padding: 0 30px;
+        }
+    }
+}
+.active{
+    background-color: #e12e3f !important;
+    z-index: 1000 !important;
+}
+.twSection_col-img{
+    width: 90%;
+    height: 190px;
+}
+.twSec_fixed_nav{
+    h4{
+        font-size: 18px;
+        color: #ff5912;
+        padding: 10px 0;
+        font-weight: bolder;
+    }
+}
+.twSec_category{
+    ul{
+        padding: 0;
+        li{
+            list-style-type: none;
+            margin: 10px 0;
+            font-weight: bolder;
+            color: #34404b;
+        }
+    }
+}
+.twSec_prc--filter{
+    
+}
+.twSec--olcu{
+    background-color: #ffffff;
+    width: 200px;
+    padding: 30px 40px;
+    margin-bottom: 30px;
+}
+.twSec_sizes{
+   ul{
+       padding-left: 20px;
+       font-weight: bolder;
+       color: #34404b;
+       li{
+            list-style-type: none;
+            padding: 10px 0;
+           &:hover{
+               &::before{
+                   border: 2.5px solid #ff5912;
+                   background-color: #ffffff;
+               }
+           }
+           &::before{
+               content: "";
+               width: 10px;
+               height: 10px;
+               position: absolute;
+               background: #edf0f2;
+               margin-left: -20px;
+               margin-top: 5px;
+           }
+          
+       }
+   }
+}
+.twSec_brand{
+    ul{
+        padding-left: 20px;
+        font-weight: bolder;
+        color: #34404b;
+        li{
+            padding: 10px 0;
+            &:hover{
+                &::before{
+                    border: 2.5px solid #ff5912;
+                    background-color: #ffffff;
+                }
+            }
+            &::before{
+                content: "";
+                width: 10px;
+                height: 10px;
+                position: absolute;
+                background: #edf0f2;
+                margin-left: -20px;
+                margin-top: 5px;
+            }
+            list-style-type: none;
+        }
+    }
+}
+.twSection_col{
+    height: 340px;
+    &:hover{
+        
+        .twiceSection__content--header{
+            color: #ff5912;
+            padding: 5px 0;
+        }
+        .twSection_col-img{
+            width: 60%;
+            height: 40%;
+            transition: 0.5s;
+            margin-bottom: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .hidden-sizes{
+            display: block;
+            padding-bottom: 10px;
+        }
+        .twiceSection__content--price{
+            display: none;
+        }
+        .hiddenSizes_dots{
+            display: block;
+        }
+        .hidden-col-3-sizes{
+            display: block;
+        }
+    }
+}
+.hidden-sizes{
+    display: none;
+}
+.hidden-col-3-sizes{
+    &::before{
+        content: " ";
+        height: 1px;
+        width: 160px;
+        background-color: #7c8791;
+        position: absolute;
+        left: 20%;
+    }
+    display: none;
+    i{
+        margin:20px 15px;
+        cursor: pointer;
+        &:hover{
+            color: #ff5912;
+        }
+    }
+}
+.hiddenSizes_dots{
+    display: none;
+    margin-bottom: 10px;
+}
+.sizesDot-one{
+    color: #e12e3f;
+    cursor: pointer;
+}
+.sizesDot-two{
+    color: #34404b;
+    cursor: pointer;
+}
+.sizesDot-three{
+    color: #3ab3ff;
+    cursor: pointer;
+}
+.sizesDot-four{
+    color: #2fd967;
+    cursor: pointer;
+}
+.twiceSection__content--header{
+    font-size: 18px;
+    padding: 20px 0;
+    color: #34404b;
+}
+.twiceSection__content--price{
+    font-size: 18px;
+    color: #ff5912;
+}
+.twiceSection-item-4{
+    margin-right: 0 !important;
+}
+.twiceSection__dots{
+    cursor: pointer;
+    width: 100%;
+    background: #ffffff;
+    padding: 20px 0;
+    i{
+        color: #ff5912;
+        font-size: 18px;
+    }
+}
