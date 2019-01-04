@@ -13,8 +13,6 @@
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"  media="screen">
-<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 
 </head>
 <body>
@@ -79,10 +77,16 @@
                         </div>
                         <div class="twSec_prc--filter twSec--olcu">
                             <h4>Price Filter</h4>
-                            <div class="slidecontainer">
+                            <!--<div class="slidecontainer">
                                 <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
                                 <p>Value: <span id="demo"></span></p>
+                              </div>-->
+                              <div class="slidecontainer">
+                                <input type="range" min="100" max="5000" value="1550" class="slider" id="myRange">
+                                <input type="range" min="100" max="5000" value="2590" class="slider1" id="myRange1">
+                                <p>From <span id="demo"></span> to <span id="demo1"></span></p>
                               </div>
+                              
                             <div></div>
                             <div></div>
                         </div>
@@ -362,9 +366,8 @@
                 </div>
             </div>
         </section>
-  
         <script src="../js/main.js"></script>
-        <script>
+   <!--     <script>
             var slider = document.getElementById("myRange");
             var output = document.getElementById("demo");
             output.innerHTML = slider.value;
@@ -372,6 +375,22 @@
             slider.oninput = function() {
               output.innerHTML = this.value;
             }
-            </script>
+            </script>-->
+            <script>
+                var slider = document.getElementById("myRange");
+                var output = document.getElementById("demo");
+                output.innerHTML = slider.value;
+                
+                slider.oninput = function() {
+                  output.innerHTML = this.value;
+                }
+                var slider1 = document.getElementById("myRange1");
+                var output1 = document.getElementById("demo1");
+                output1.innerHTML = slider1.value;
+                
+                slider1.oninput = function() {
+                  output1.innerHTML = this.value;
+                }
+            </script>            
 </body>
 </html>
