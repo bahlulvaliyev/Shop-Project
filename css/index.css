@@ -2,6 +2,10 @@ body {
   font-family: Harmonia Sans;
 }
 
+.float-right {
+  float: right;
+}
+
 .text-left {
   text-align: left;
 }
@@ -48,7 +52,7 @@ body {
 }
 
 .socNetwork {
-  width: 100%;
+  float: right;
   text-align: right;
 }
 
@@ -86,17 +90,17 @@ body {
   transition: 0.3s;
 }
 
-.header .col-lg-offset-2 div {
+.header .col-lg-4 div {
   padding: 10px;
   margin: 0 8px;
 }
 
-.header .col-lg-offset-2 div i {
+.header .col-lg-4 div i {
   width: 20px;
   height: 20px;
 }
 
-.header .col-lg-offset-2 div:hover {
+.header .col-lg-4 div:hover {
   color: #ff5912;
   -webkit-transition: 0.3s;
   transition: 0.3s;

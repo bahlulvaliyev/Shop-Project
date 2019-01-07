@@ -1,6 +1,9 @@
 body{
     font-family: Harmonia Sans;
 }
+.float-right{
+    float: right;
+}
 .text-left{
     text-align: left;
 }
@@ -35,7 +38,7 @@ body{
     }
 }
 .socNetwork{
-    width: 100%;
+    float: right;
     text-align: right;
     li{
         list-style-type: none;
@@ -68,7 +71,8 @@ body{
             }
         }
     }
-    .col-lg-offset-2{
+    .col-lg-4{
+        
         div{
             padding: 10px;
             margin: 0 8px;
