@@ -3,6 +3,7 @@
 }
 .productBigimg{
     padding: 20px 0 30px 20%;
+    overflow: hidden;
 }
 .productBigText--wrap{
     width: 60%;
@@ -18,6 +19,12 @@
         color: #3c4751;
     }
 
+}
+.showcase-big{
+    &:hover{
+        transform: scale(1.2);
+        transition: 0.5s;
+    }
 }
 .productBigSize{
     display: flex;

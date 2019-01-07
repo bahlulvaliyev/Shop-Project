@@ -314,4 +314,8 @@
   background: #34404b;
   cursor: pointer;
 }
+
+.extraProductHidden {
+  display: none;
+}
 /*# sourceMappingURL=product.css.map */

@@ -4,6 +4,7 @@
 
 .productBigimg {
   padding: 20px 0 30px 20%;
+  overflow: hidden;
 }
 
 .productBigText--wrap {
@@ -22,6 +23,13 @@
 .productBigText--wrap p {
   padding: 40px 0;
   color: #3c4751;
+}
+
+.showcase-big:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .productBigSize {
