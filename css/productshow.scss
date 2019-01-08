@@ -20,6 +20,14 @@
     }
 
 }
+.showcase1{
+    &:hover{
+            color: #ff5912;
+            opacity: 0.5;
+            transition: 0.3s;
+    }
+}
+
 .showcase-big{
     &:hover{
         transform: scale(1.2);

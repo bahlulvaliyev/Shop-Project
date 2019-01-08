@@ -25,6 +25,13 @@
   color: #3c4751;
 }
 
+.showcase1:hover {
+  color: #ff5912;
+  opacity: 0.5;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
 .showcase-big:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
